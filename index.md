@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+## MNH48 Translation Tracker
+For my profile, please see [my carrd site](https://mnh48.carrd.co)
 
-You can use the [editor on GitHub](https://github.com/MuhdNurHidayat/tl.mnh48.moe/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Weblate
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Hosted Weblate
+Profile overview: https://hosted.weblate.org/user/muhdnurhidayat/
 
-### Markdown
+Current progress (Malay - Latin):
+- Minetest: ![Malay translation of Minetest](https://hosted.weblate.org/widgets/minetest/ms/svg-badge.svg)
+- Liberapay: ![Malay translation of Liberapay](https://hosted.weblate.org/widgets/liberapay/ms/svg-badge.svg)
+- Kaidan: ![Malay translation of Kaidan](https://hosted.weblate.org/widgets/kaidan/ms/svg-badge.svg)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+On-hold (Malay - Latin):
+- iso-codes: ![Malay translation of iso-codes](https://hosted.weblate.org/widgets/iso-codes/ms/svg-badge.svg)
 
-```markdown
-Syntax highlighted code block
+Planned: Malay - Arabic variant
 
-# Header 1
-## Header 2
-### Header 3
+#### TDF Weblate
+Profile overview: https://weblate.documentfoundation.org/user/mnh48/
 
-- Bulleted
-- List
+Planned: Malay - Latin and Malay - Arabic
 
-1. Numbered
-2. List
+Under consideration:
+LibreOffice Help (Malay - Latin): ![Malay translation](https://weblate.documentfoundation.org/widgets/libo_help-master/ms/svg-badge.svg)
+LibreOffice UI (Malay - Latin): ![Malay translation](https://weblate.documentfoundation.org/widgets/libo_help-master/ms/svg-badge.svg)
 
-**Bold** and _Italic_ and `Code` text
+### Crowdin
+Profile overview: https://crowdin.com/profile/muhdnurhidayat96
 
-[Link](url) and ![Image](src)
-```
+Unfortunately, crowdin does not provide a way to quickly display current translation percentage, and so I might be late to update translations on their platform.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+In translation team for:
+- FredBoat (Malay - Latin)
+- FolderMount (Malay - Latin)
 
-### Jekyll Themes
+Requested:
+- GitLab (Malay - Latin)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MuhdNurHidayat/tl.mnh48.moe/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Transifex
+Profile overview: https://www.transifex.com/user/profile/muhdnurhidayat/
 
-### Support or Contact
+Unfortunately, crowdin does not provide a way to quickly display current translation percentage, and so I might be late to update translations on their platform.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+In translation team for:
+- uMap (Malay - Latin)
+- Tatsumaki - a Discord bot (Malay - Latin)
+- Tatsumaki - a Discord bot (Malay - Arabic)
+- Xonotic (Malay - Latin)
+
+
