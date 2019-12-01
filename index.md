@@ -50,13 +50,15 @@ Planned: Malay - Arabic variants
 ### Transifex
 Profile overview: [https://www.transifex.com/user/profile/muhdnurhidayat/](https://www.transifex.com/user/profile/muhdnurhidayat/)
 
-Unfortunately, Transifex does not provide a way to quickly display current translation percentage, and so I might be late to update translations on their platform.
+Transifex does not provide a way to quickly display current translation percentage, the percentage displayed were calculated by fetching data through their API.
 
-In translation team for:
-- uMap (Malay - Latin)
-- Tatsumaki - a Discord bot (Malay - Latin)
-- Tatsumaki - a Discord bot (Malay - Arabic)
-- Xonotic (Malay - Latin)
+Current progress:
+- uMap (Malay - Latin): ![Malay translation of uMap](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DuMap-rumi)
+- Tatsumaki - a Discord bot (Malay - Latin): ![Malay translation of Tatsumaki (rumi)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DTatsumaki-rumi)
+- Tatsumaki - a Discord bot (Malay - Arabic): ![Malay translation of Tatsumaki (jawi)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DTatsumaki-jawi)
+- Xonotic (Malay - Latin): ![Malay translation of Xonotic](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DXonotic-rumi)
+
+Planned: Malay - Arabic variants for those that currently only has Malay - Latin translations.
 
 ## Contact
 For fastest response, join my [Discord server](https://discord.gg/xsZQyGf).
