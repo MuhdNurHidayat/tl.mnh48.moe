@@ -27,28 +27,30 @@ Planned: Malay - Arabic variant
 #### TDF Weblate
 Profile overview: [https://weblate.documentfoundation.org/user/mnh48/](https://weblate.documentfoundation.org/user/mnh48/)
 
-Planned: Malay - Latin and Malay - Arabic
-
 Under consideration:
 - LibreOffice Help (Malay - Latin): ![Malay translation](https://weblate.documentfoundation.org/widgets/libo_help-master/ms/svg-badge.svg)
 - LibreOffice UI (Malay - Latin): ![Malay translation](https://weblate.documentfoundation.org/widgets/libo_help-master/ms/svg-badge.svg)
 
+Planned: Malay - Arabic variants
+
 ### Crowdin
 Profile overview: [https://crowdin.com/profile/muhdnurhidayat96](https://crowdin.com/profile/muhdnurhidayat96)
 
-Unfortunately, crowdin does not provide a way to quickly display current translation percentage, and so I might be late to update translations on their platform.
+Crowdin does not provide a way to quickly display current translation percentage, the percentage displayed were calculated by fetching data through their API.
 
-In translation team for:
-- FredBoat (Malay - Latin)
-- FolderMount (Malay - Latin)
+Current progress (Malay - Latin):
+- FredBoat: ![Malay translation of FredBoat](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DFredBoat-rumi)
+- FolderMount: ![Malay translation of FolderMount](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DFolderMount-rumi)
 
 Requested:
 - GitLab (Malay - Latin)
 
+Planned: Malay - Arabic variants
+
 ### Transifex
 Profile overview: [https://www.transifex.com/user/profile/muhdnurhidayat/](https://www.transifex.com/user/profile/muhdnurhidayat/)
 
-Unfortunately, crowdin does not provide a way to quickly display current translation percentage, and so I might be late to update translations on their platform.
+Unfortunately, Transifex does not provide a way to quickly display current translation percentage, and so I might be late to update translations on their platform.
 
 In translation team for:
 - uMap (Malay - Latin)
