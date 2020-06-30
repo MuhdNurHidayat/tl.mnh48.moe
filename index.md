@@ -14,16 +14,16 @@ Malay in Latin script is officially known as "Rumi" and Malay in Arabic script i
 
 All the Malay translations that I did were neutral, native and avoid loanwords whenever possible. This will ensure it to be understandable across the whole Malay language users, including but not limited to:
 - Malay language users where Malay is recognized as national language
-  - Malaysia
-  - Brunei
-  - Singapore
+  - 🇲🇾 Malaysia
+  - 🇧🇳 Brunei
+  - 🇸🇬 Singapore
 - Malay language users where Malay is recognized as state or cultural language
-  - Indonesia (in Sumatra and Kalimantan)
-  - Thailand (in Narathiwat, Yala, Pattani, Songkhla, Bangkok, Hat Yai and Satun)
-  - Philippines (in Bangsamoro and Balabac)
+  - 🇮🇩 Indonesia (in Sumatra and Kalimantan)
+  - 🇹🇭 Thailand (in Narathiwat, Yala, Pattani, Songkhla, Bangkok, Hat Yai and Satun)
+  - 🇵🇭 Philippines (in Bangsamoro and Balabac)
 - Malay language users where Malay is the de-facto language
-  - Cocos (Keeling) Islands in Australia
-  - Christmas Island in Australia
+  - 🇨🇨 Cocos (Keeling) Islands (Australian external territory)
+  - 🇨🇽 Christmas Island (Australian external territory)
 - Malay language users in association
   - ASEAN (Association of Southeast Asian Nations)
 
