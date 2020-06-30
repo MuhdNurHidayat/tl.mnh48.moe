@@ -12,7 +12,7 @@ For my general profile, please see [my carrd site](https://mnh48.carrd.co).
 ### Weblate
 
 #### Hosted Weblate
-Profile overview: [https://hosted.weblate.org/user/muhdnurhidayat/](https://hosted.weblate.org/user/muhdnurhidayat/)
+Profile overview: [https://hosted.weblate.org/user/mnh48/](https://hosted.weblate.org/user/mnh48/)
 
 Current progress (Malay - Latin):
 - Minetest: ![Malay translation of Minetest](https://hosted.weblate.org/widgets/minetest/ms/svg-badge.svg)
