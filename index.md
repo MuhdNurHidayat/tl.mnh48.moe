@@ -42,10 +42,12 @@ Minetest (engine)
 Minetest Mods for Android app
 - Rumi Malay [![Translation status](https://hosted.weblate.org/widgets/minetest/ms/mtmods4android/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/ms/?utm_source=widget)
 - Jawi Malay [![Translation status](https://hosted.weblate.org/widgets/minetest/ms_Arab/mtmods4android/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/ms_Arab/?utm_source=widget)
+There is a possibility that the app owner is abandoning the app, the translation directory has been locked and nothing could be done from my side.
 
 Mod: Game Internationalization
 - Rumi Malay [![Translation status](https://hosted.weblate.org/widgets/minetest/ms/mtg_i18n/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/ms/?utm_source=widget)
 - Jawi Malay [![Translation status](https://hosted.weblate.org/widgets/minetest/ms_Arab/mtg_i18n/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/ms_Arab/?utm_source=widget)
+There is a possibility that the maintainer is abandoning the mod, the translation directory has been locked and nothing could be done from my side.
 
 Mod: Hopper
 - Rumi Malay [![Translation status](https://hosted.weblate.org/widgets/minetest/ms/mod-hopper/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/ms/?utm_source=widget)
@@ -101,7 +103,7 @@ Planned: Jawi Malay variants
 
 
 ## Crowdin
-Profile overview: [https://crowdin.com/profile/muhdnurhidayat96](https://crowdin.com/profile/muhdnurhidayat96)
+Profile overview: [https://crowdin.com/profile/mnh48](https://crowdin.com/profile/mnh48)
 
 Crowdin does not provide a way to quickly display current translation percentage, the percentage displayed were calculated by fetching data through their API.
 
@@ -110,20 +112,26 @@ Current progress (Rumi Malay):
 - FolderMount: ![Malay translation of FolderMount](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DFolderMount-rumi)
 
 Requested:
-- GitLab (Rumi Malay)
+- GitLab (Rumi Malay) - No one is responding to the old request via Crowdin messaging feature, I'm trying to request again through other means.
 
 Planned: Jawi Malay variants
 
+
 ## Transifex
-Profile overview: [https://www.transifex.com/user/profile/muhdnurhidayat/](https://www.transifex.com/user/profile/muhdnurhidayat/)
+Profile overview: [https://www.transifex.com/user/profile/mnh48/](https://www.transifex.com/user/profile/mnh48/)
 
 Transifex does not provide a way to quickly display current translation percentage, the percentage displayed were calculated by fetching data through their API.
 
+UPDATE: Due to Transifex not allowing its users to change username and recommend people to instead delete their account and recreate account with new username, I lost the access to my previous translations, including the API access needed to display the percentage of progress. While waiting for the remaining projects to accept my request to rejoin them, I'm displaying the last known progress in place of actual progress.
+
 Current progress:
-- uMap (Rumi Malay): ![Malay translation of uMap](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DuMap-rumi)
-- Tatsumaki - a Discord bot (Rumi Malay): ![Malay translation of Tatsumaki (rumi)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DTatsumaki-rumi)
-- Tatsumaki - a Discord bot (Jawi Malay): ![Malay translation of Tatsumaki (jawi)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DTatsumaki-jawi)
+- uMap (Rumi Malay): Last known at 60% <!--![Malay translation of uMap](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DuMap-rumi)-->
 - Xonotic (Rumi Malay): ![Malay translation of Xonotic](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DXonotic-rumi)
+
+Retired:
+- Tatsumaki - a Discord bot (Rumi Malay): Last known at 100% <!--![Malay translation of Tatsumaki (rumi)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DTatsumaki-rumi)-->
+- Tatsumaki - a Discord bot (Jawi Malay): Last known at 20% <!--![Malay translation of Tatsumaki (jawi)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.mnh48.moe%2Fimg%2Fstatus.php%3Fname%3DTatsumaki-jawi)-->
+Tatsumaki team has retired their Transifex and they are in process of moving to Weblate. They no longer accept any join request on Transifex and as such I cannot rejoin the team. I will join over at Weblate once they are done with setting up on their side, as the set up is still not completed yet.
 
 Planned: Jawi Malay variants for those that currently only has Rumi Malay translations.
 
