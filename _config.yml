@@ -1,1 +1,26 @@
-theme: jekyll-theme-architect
+title: MNH48 Translation - Terjemahan MNH48
+description: "&#x202e;ترجمهن &#x202c;MNH48&#x202e; -  &#x202c;"
+twitter_username: mnh48com
+github_username: mnh48
+timezone: Asia/Kuala_Lumpur
+
+mnh48:
+    picture: https://s.gravatar.com/avatar/8b9ca30c0d90e45386fa97a1ebc8d344?s=200
+    twitter: mnh48com
+
+plugins:
+    - jekyll-redirect-from
+    - jemoji
+    - jekyll-mentions
+
+markdown: kramdown
+kramdown:
+  extensions:
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - tables
+    - strikethrough
+    - superscript
+    - with_to_data
+

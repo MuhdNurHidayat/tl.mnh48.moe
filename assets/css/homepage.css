@@ -1,0 +1,82 @@
+.latn a, .arab a, .brgn a, .jpns a, .hans a, .hant a {
+    background-color: #605;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.latn, .arab, .brgn, .jpns, .hans, .hant {
+    text-align: center;
+}
+
+.latn a {
+    width: 22em;
+    padding: 15px 5px 5px 5px;
+    font-size: 1.2em;
+    font-family: BalooTammudu2, sans-serif;
+}
+
+.arab a {
+    width: 22em;
+    padding: 10px 5px;
+    font-size: 1.2em;
+    font-family: Harmattan, sans-serif;
+    direction: rtl;
+    cursor: default;       /*remove when ready*/
+    pointer-events: none;  /* remove when ready*/
+}
+
+.brgn a {
+    width: 19.25em;
+    padding: 20px 70px 20px 0px;
+    font-size: 1.2em;
+    font-family: Beringin, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    direction: rtl;
+    writing-mode: vertical-rl;
+    cursor: default;       /* remove when ready*/
+    pointer-events: none;  /* remove when ready*/
+}
+
+.jpns a {
+    width: 22em;
+    padding: 15px 5px;
+    font-size: 1.2em;
+    font-family: KosugiMaru, sans-serif;
+}
+
+.hans a {
+    width: 22em;
+    padding: 15px 5px;
+    font-size: 1.2em;
+    font-family: ZCOOLQingKeHuangYou, sans-serif;
+}
+
+.hant a {
+    width: 22em;
+    padding: 15px 5px;
+    font-size: 1.2em;
+    font-family: NotoSansTC, sans-serif;
+}
+
+.latn strong, .arab strong, .brgn strong, .jpns strong, .hans strong, .hant strong {
+    font-size: 1.5em;
+}
+
+.latn a:hover, .latn a:active {
+    background-color: blue;
+}
+
+.arab a:hover, .arab a:active, .brgn a:hover, .brgn a:active, .jpns a:hover, .jpns a:active, .hans a:hover, .hans a:active, .hant a:hover, .hant a:active {
+    cursor: default;       /* remove when ready*/
+    pointer-events: none;  /* remove when ready*/
+}

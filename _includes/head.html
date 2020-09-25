@@ -1,0 +1,75 @@
+<!--start of _includes/head.html-->
+{% capture pagelang %}{{ page.lang | default: "en"}}{% endcapture %}<!--Jekyll check the page language to use on head-->
+{% assign hddt = site.data.header[pagelang] %}<!--Jekyll assign all variables based on page language-->
+{% if page.title %}<!--Jekyll checked that page title exist-->
+    {% if page.title == hddt.webtitle %}<!--Jekyll checked that page title is the same as website title-->
+        {% assign headtitle = page.title %}<!--Use the page title-->
+    {% else %}<!--Jekyll checked that page title is different from website title-->
+        {% capture headtitle %}{{ page.title }} - {{ hddt.webtitle | default: "MNH48 Translations" }}{% endcapture %}<!--Write the website title after the page title-->
+    {% endif %}<!--Jekyll ends checking-->
+{% else %}<!--Jekyll checked that page title does not exist-->
+    {% capture headtitle %}{{ hddt.webtitle | default: "MNH48 Translations" }}{% endcapture %}<!--Use the default title-->
+{% endif %}<!--Jekyll ends checking-->
+{% if page.description %}<!--Jekyll checked that page description exist-->
+    {% assign headdesc = page.description %}<!--Use the page description-->
+{% else %}<!--Jekyll checked that page description does not exist-->
+    {% assign headdesc = hddt.pagetitle %}<!--Use the default description-->
+{% endif %}<!--Jekyll ends checking-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#660055">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#660055">
+    <meta name="msapplication-navbutton-color" content="#660055">
+    <meta name="title" content="{{ headtitle | escape }}">
+    <meta name="description" content="{{ headdesc | escape }}">
+    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% else %}<!--meta element for page keywords will appear here if they are specified-->{% endif %}
+    {% if page.date %}<meta name="dcterms.created" content="{{ page.date }}">{% else %}<!--meta element for date of writing will appear here if they are specified-->{% endif %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mnh48com">
+    <meta name="twitter:url" content="https://tl.mnh48.moe{{ page.url }}">
+    <meta name="twitter:title" content="{{ headtitle | escape }}">
+    <meta name="twitter:description" content="{{ headdesc | escape }}">
+    <meta name="twitter:image" content="{{ page.thumbnail | default: "/assets/img/mnh48/mnh48-164.png" }}">
+    <meta property="og:locale" content="{{ pagelang }}">
+    <meta property="og:title" content="{{ headtitle | escape }}">
+    <meta property="og:description" content="{{ headdesc | escape }}">
+    <meta property="og:site_name" content="{{ hddt.webtitle | escape }}">
+    <meta property="og:image" content="/assets/img/mnh48/mnh48-500.png" />
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/mnh48/mnh48-180.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/mnh48/mnh48-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/mnh48/mnh48-16.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="/assets/img/mnh48/mnh48-128.png">
+    <link rel="icon" type="image/png" sizes="164x164" href="/assets/img/mnh48/mnh48-164.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--[if lt IE 9]> <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script> <![endif]-->
+    <script type="application/ld+json">
+    {
+        "@type":"WebSite",
+        "url":"{{ page.url }}",
+        "headline":"{{ headtitle | escape }}",
+        "name":"{{ hddt.webtitle | escape }}",
+        "description":"{{ headdesc | escape }}",
+        "@context":"https://schema.org"
+    }
+    </script>
+    <link rel="stylesheet" href="/assets/css/font-latn.css">
+    <link rel="stylesheet" href="/assets/css/font-arab.css">
+    <link rel="stylesheet" href="/assets/css/font-brgn.css">
+    <link rel="stylesheet" href="/assets/css/font-jpns.css">
+    <link rel="stylesheet" href="/assets/css/font-hans.css">
+    <link rel="stylesheet" href="/assets/css/font-hant.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/invert.css">
+    <link rel="stylesheet" href="/assets/css/brgn.css">
+    <link rel="stylesheet" href="/assets/css/brgninvert.css">
+    {% if page.url == "/" %}<link rel="stylesheet" href="/assets/css/homepage.css">{% else %}<!--additional stylesheet will be here if it is a homepage-->{% endif %}
+    <title>{{ headtitle }}</title>
+</head>
+<!--end of _includes/head.html-->

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "mul" }}"{% if page.lang == "ms-Arab" or page.lang == "ms-Brgn" %} dir="rtl"{% endif %}>
+{% include head.html %}
+<body itemscope itemtype="https://schema.org/WebPage">
+{% include header.html %}
+<main lang="{{ page.lang | default: "ms" }}">
+<!--start of page content-->
+{{ content }}
+<!--end of page content-->
+</main>
+{% include footer.html %}
+</body>
+<!--This Jekyll template was first written manually by Yaya MNH48 using Notepadqq v1.4.8 on 32-bit device running Ubuntu 18.04.5 LTS i686 on 15 September 2020 Malaysian time-->
+</html>
