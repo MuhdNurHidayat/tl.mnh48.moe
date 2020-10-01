@@ -20,14 +20,17 @@
     width: 22em;
     padding: 15px 5px 5px 5px;
     font-size: 1.2em;
-    font-family: BalooTammudu2, sans-serif;
+    font-family: "Baloo Tammudu 2", sans-serif;
 }
 
 .arab a {
     width: 22em;
     padding: 10px 5px;
     font-size: 1.2em;
-    font-family: Harmattan, sans-serif;
+    font-family: "Harmattan", sans-serif;
+    -webkit-font-feature-settings: "cv84" 1; 
+    -moz-font-feature-settings: "cv84" 1; 
+    font-feature-settings: "cv84" 1;
     direction: rtl;
     cursor: default;       /*remove when ready*/
     pointer-events: none;  /* remove when ready*/
@@ -37,7 +40,7 @@
     width: 19.25em;
     padding: 20px 70px 20px 0px;
     font-size: 1.2em;
-    font-family: Beringin, sans-serif;
+    font-family: "MNH48 Beringin PUA", sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -51,21 +54,21 @@
     width: 22em;
     padding: 15px 5px;
     font-size: 1.2em;
-    font-family: KosugiMaru, sans-serif;
+    font-family: "Kosugi Maru", sans-serif;
 }
 
 .hans a {
     width: 22em;
     padding: 15px 5px;
     font-size: 1.2em;
-    font-family: ZCOOLQingKeHuangYou, sans-serif;
+    font-family: "ZCOOL XiaoWei", sans-serif;
 }
 
 .hant a {
     width: 22em;
     padding: 15px 5px;
     font-size: 1.2em;
-    font-family: NotoSansTC, sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
 }
 
 .latn strong, .arab strong, .brgn strong, .jpns strong, .hans strong, .hant strong {

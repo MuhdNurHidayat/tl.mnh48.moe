@@ -7,7 +7,7 @@ body, html {
     background: #605;
     background-repeat: no-repeat;
     height: 100%;
-    font-family: "BalooTammudu2", sans-serif;
+    font-family: "Baloo Tammudu 2", "Harmattan", "MNH48 Beringin PUA", "Kosugi Maru", "ZCOOL XiaoWei", "Noto Sans TC", sans-serif;
     font-size: 18px;
 }
 
@@ -42,9 +42,31 @@ p{
 
 /* Set headers styling */
 h1, h2, h3, h4, h5 {
-    font-family: "Grenze", sans-serif;
+    font-family: "Dancing Script", "Amiri", "MNH48 Beringin PUA", "Sawarabi Mincho", "Ma Shan Zheng", "Noto Serif TC", serif;
     color: #eae;
     text-align: left;
+}
+
+h1:lang(ms-Arab), h2:lang(ms-Arab), h3:lang(ms-Arab), h4:lang(ms-Arab), h5:lang(ms-Arab) {
+    font-family: "Amiri", "Dancing Script", serif;
+    direction: rtl;
+    -webkit-font-feature-settings: "ss08" 1; 
+    -moz-font-feature-settings: "ss08" 1; 
+    font-feature-settings: "ss08" 1;
+}
+
+h1:lang(ms-Brgn), h2:lang(ms-Brgn), h3:lang(ms-Brgn), h4:lang(ms-Brgn), h5:lang(ms-Brgn) {
+    font-family: "MNH48 Beringin PUA", "Dancing Script", serif;
+    direction: rtl;
+    writing-mode: vertical-rl;
+}
+
+h1:lang(ja), h2:lang(ja), h3:lang(ja), h4:lang(ja), h5:lang(ja){
+    font-family: "Sawarabi Mincho", "Dancing Script", serif;
+}
+
+h1:lang(zh-Hans), h2:lang(zh-Hans), h3:lang(zh-Hans), h4:lang(zh-Hans), h5:lang(zh-Hans){
+    font-family: "Ma Shan Zheng", "Dancing Script", serif;
 }
 
 /* Set headers' links to use different shade */
@@ -95,12 +117,53 @@ header {
 .websitetitle {
     margin: -30px 0 0 0;
     text-align: center;
+    font-family: "Grenze Gotisch", "Lateef", "MNH48 Beringin PUA", "M PLUS 1p", "Long Cang", "Noto Serif TC", serif;
+}
+
+.websitetitle:lang(ms-Arab) {
+    font-family: "Lateef", "Grenze Gotisch", serif;
+    direction: rtl;
+}
+
+.websitetitle:lang(ms-Brgn) {
+    font-family: "MNH48 Beringin PUA", "Grenze Gotisch", serif;
+    direction: rtl;
+    writing-mode: vertical-rl;
+}
+
+.websitetitle:lang(ja){
+    font-family: "M PLUS 1p", "Grenze Gotisch", serif;
+}
+
+.websitetitle:lang(zh-Hans){
+    font-family: "Long Cang", "Grenze Gotisch", serif;
 }
 
 .webpagetitle {
     margin: 0px;
     text-align: center;
+    font-family: "Grenze Gotisch", "Lateef", "MNH48 Beringin PUA", "M PLUS 1p", "Long Cang", "Noto Serif TC", serif;
 }
+
+.webpagetitle:lang(ms-Arab) {
+    font-family: "Lateef", "Grenze Gotisch", serif;
+    direction: rtl;
+}
+
+.webpagetitle:lang(ms-Brgn) {
+    font-family: "MNH48 Beringin PUA", "Grenze Gotisch", serif;
+    direction: rtl;
+    writing-mode: vertical-rl;
+}
+
+.webpagetitle:lang(ja){
+    font-family: "M PLUS 1p", "Grenze Gotisch", serif;
+}
+
+.webpagetitle:lang(zh-Hans){
+    font-family: "Long Cang", "Grenze Gotisch", serif;
+}
+
 
 /* Set main and article base */
 main {
@@ -110,15 +173,47 @@ main {
     max-width: 940px;
 }
 
-/* Set line height for list items*/
+/* Set properties for list items*/
 li {
     line-height: 1.1;
     padding-bottom: 2px;
 }
 
+ul, ol {
+    margin-left: 0px;
+    padding-left: 1em;
+}
+
 /* Set article to not having margins*/
 article {
     margin:0
+}
+
+/* Declare default font for non-Latin */
+html:lang(ms-Arab), body:lang(ms-Arab), main:lang(ms-Arab), article:lang(ms-Arab), p:lang(ms-Arab) {
+    font-family: "Harmattan", "Baloo Tammudu 2", sans-serif;
+    -webkit-font-feature-settings: "cv84" 1; 
+    -moz-font-feature-settings: "cv84" 1; 
+    font-feature-settings: "cv84" 1;
+    font-size: 1.05em;
+    direction: rtl;
+}
+
+html:lang(ms-Brgn), body:lang(ms-Brgn), main:lang(ms-Brgn), article:lang(ms-Brgn), p:lang(ms-Brgn) {
+    font-family: "MNH48 Beringin PUA", "Baloo Tammudu 2", sans-serif;
+    writing-mode: vertical-rl;
+}
+
+html:lang(ja), body:lang(ja), main:lang(ja), article:lang(ja), p:lang(ja) {
+    font-family: "Kosugi Maru", "Baloo Tammudu 2", sans-serif;
+}
+
+html:lang(zh-Hans), body:lang(zh-Hans), main:lang(zh-Hans), article:lang(zh-Hans), p:lang(zh-Hans) {
+    font-family: "ZCOOL XiaoWei", "Baloo Tammudu 2", sans-serif;
+}
+
+html:lang(zh-Hant), body:lang(zh-Hant), main:lang(zh-Hant), article:lang(zh-Hant), p:lang(zh-Hant) {
+    font-family: "Noto Sans TC", "Baloo Tammudu 2", sans-serif;
 }
 
 /* Handle image styling */
@@ -191,29 +286,6 @@ footer ul li:not(:nth-child(1))::before {
     font-size: 75%;
 }
 
-/* To force language-specific fonts */
-:lang(ms-Arab){
-    font-family: "Harmattan", sans-serif;
-    direction: rtl;
-}
-
-:lang(ms-Brgn){
-    font-family: "Beringin", sans-serif;
-    direction: rtl;
-    writing-mode: vertical-rl;
-}
-
-:lang(ja){
-    font-family: "KosugiMaru", sans-serif;
-}
-
-:lang(zh-Hans){
-    font-family: "ZCOOLQingKeHuangYou", sans-serif;
-}
-
-:lang(zh-Hant){
-    font-family: "NotoSansTC", sans-serif;
-}
 
 /* Table styling */
 table {
@@ -277,14 +349,15 @@ tr:hover, .kanabanyak tr:hover, .kanadanrumi tr:hover {
 }
 
 /* Table of contents styling */
-#markdown-toc{
+.toc{
     float: right;
     clear: right;
     width: auto;
     background: none;
-    padding: 20px 20px 20px 40px;
-    margin: 20px 10px 10px 50px;
+    padding: 10px 10px 10px 25px;
+    margin: 1em;
     border: 1px solid white;
+    font-size: 0.75em;
 }
 
 /* Styling for `code` elements */
@@ -296,4 +369,27 @@ code {
     font-size: 0.85em;
 }
 
+/* Styling for 'back to top' text */
 
+.btt {
+    display: block;
+    font-weight: bold;
+    font-size: 0.5em;
+    text-align: right;
+}
+
+.btt.en::before {
+    content: 'Back to TOP ';
+}
+
+.btt.ms::before {
+    content: 'Naik ke ATAS ';
+}
+
+.btt.ms-Arab::after {
+    content: ' ناٴيق کأتس';
+}
+
+.btt.ms-Brgn::before {
+    content: '   ';
+}
