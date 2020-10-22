@@ -1,6 +1,6 @@
 <!--start of _includes/footer.html-->
 {% capture pagelang %}{{ page.lang | default: "en"}}{% endcapture %}<!--Jekyll check the page language to use on footer-->
-{% assign ftdt = site.data.footer[pagelang] %}<!--Jekyll assign all variables based on page language-->
+{% assign ftdt = site.data.html.footer[pagelang] %}<!--Jekyll assign all variables based on page language-->
 <footer lang="{{ pagelang }}">
 {% if page.lang == "mul" %}<!--Jekyll checked the page language is 'mul'-->
     <ul>
@@ -26,7 +26,8 @@
         <li id="footer-sttaus" class="footlist" lang="{{ pagelang }}"><a href="https://status.mnh48.com/">{{ ftdt.status }}</a></li>
     </ul>
     <p id="footer-disclaim" class="footer" lang="{{ pagelang }}">{{ ftdt.disclaim }}</p>
-    <p id="footer-generate" class="footer" lang="{{ pagelang }}">{{ ftdt.generate }} {{ "now" | date: "%Y-%m-%d, %H:%M" }}</p>
+    <p id="footer-generate" class="footer" lang="{{ pagelang }}">{{ ftdt.generate }} {{ "now" | date: "%Y-%m-%d %H:%M" }}</p>
 {% endif %}<!--Jekyll ends checking-->
+{% if page.needbtt %}<a href="#toplogo" class="backtotop">↑</a>{% else %}<!--Back to top code will be here if needed-->{% endif %}
 </footer>
 <!--end of _includes/footer.html-->

@@ -1,3 +1,9 @@
+/*
+ * === CSS file for homepage (language selection page) ===
+ * This file is written by Yaya MNH48 and licensed under MIT
+ *
+ */
+
 .latn a, .arab a, .brgn a, .jpns a, .hans a, .hant a {
     background-color: #605;
     -webkit-border-radius: 8px;

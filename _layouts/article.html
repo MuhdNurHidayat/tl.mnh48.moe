@@ -3,7 +3,7 @@ layout: default
 ---
 <!--start of _layouts/article.html-->
 {% capture pagelang %}{{ page.lang | default: "en"}}{% endcapture %}<!--Jekyll retrieve the page language to use on article-->
-{% assign ardt = site.data.header[pagelang] %}<!--Jekyll assign all variables based on page language-->
+{% assign ardt = site.data.html.header[pagelang] %}<!--Jekyll assign all variables based on page language-->
 <article lang="{{ pagelang }}" class="page">
 {% comment%}
 {% if page.url != '/' %}<!--Jekyll checked that page is not at root-->

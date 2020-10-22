@@ -1,3 +1,29 @@
+/*
+ * Index of line of codes for navigation
+ *
+ * Line  27 - Base Styling
+ * Line  40 - Style the links to be green, underline on hover
+ * Line  58 - For `disabled` class, don't make the link appear obviously
+ * Line  64 - Set paragraph line height
+ * Line  69 - Set headers styling
+ * Line  98 - Set headers' links to use different shade
+ * Line 104 - Set headers' margin and size
+ * Line 130 - Set page's main header's styling
+ * Line 198 - Set main and article base
+ * Line 206 - Set properties for list items
+ * Line 217 - Set article to not having margins
+ * Line 222 - Declare default font for non-Latin
+ * Line 249 - Handle image styling
+ * Line 275 - Format the footer link list
+ * Line 320 - Table styling
+ * Line 421 - Table of contents styling
+ * Line 433 - Styling for `code` elements
+ * Line 442 - Styling for various buttons
+ *
+ * This file is written by Yaya MNH48 and licensed under MIT
+ *
+ */
+
 /* Base Styling */
 body, html {
     text-align: justify;
@@ -53,6 +79,7 @@ h1:lang(ms-Arab), h2:lang(ms-Arab), h3:lang(ms-Arab), h4:lang(ms-Arab), h5:lang(
     -webkit-font-feature-settings: "ss08" 1; 
     -moz-font-feature-settings: "ss08" 1; 
     font-feature-settings: "ss08" 1;
+    text-align: right;
 }
 
 h1:lang(ms-Brgn), h2:lang(ms-Brgn), h3:lang(ms-Brgn), h4:lang(ms-Brgn), h5:lang(ms-Brgn) {
@@ -123,6 +150,8 @@ header {
 .websitetitle:lang(ms-Arab) {
     font-family: "Lateef", "Grenze Gotisch", serif;
     direction: rtl;
+    text-align: center;
+    margin: -40px 0;
 }
 
 .websitetitle:lang(ms-Brgn) {
@@ -148,6 +177,7 @@ header {
 .webpagetitle:lang(ms-Arab) {
     font-family: "Lateef", "Grenze Gotisch", serif;
     direction: rtl;
+    text-align: center;
 }
 
 .webpagetitle:lang(ms-Brgn) {
@@ -296,10 +326,50 @@ table {
 }
 
 td { 
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
     border-collapse: collapse;
     border-bottom: 1px solid white;
     color: white;
+}
+
+th {
+    padding: 5px 5px 0px 5px;
+    border-collapse: collapse;
+    border-bottom: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+table.glossary tr td:nth-child(3) {
+    font-family: "Amiri", "Dancing Script", serif;
+    font-size: 1.2em;
+    direction: rtl;
+    -webkit-font-feature-settings: "ss08" 1; 
+    -moz-font-feature-settings: "ss08" 1; 
+    font-feature-settings: "ss08" 1;
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2210%22><path fill=%22%23FFF%22 d=%22m6,4 4-4 4,4zm0,1 4,4 4-4z%22/></svg>');
+}
+
+table.sortable tbody {
+    counter-reset: sortabletablescope;
+}
+
+table.sortable thead tr::before {
+    content: "";
+    display: table-cell;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+table.sortable tbody tr::before {
+    content: counter(sortabletablescope);
+    counter-increment: sortabletablescope;
+    display: table-cell;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
 }
 
 .kanabanyak th {
@@ -369,27 +439,46 @@ code {
     font-size: 0.85em;
 }
 
-/* Styling for 'back to top' text */
-
-.btt {
+/* Styling for various buttons */
+.backtotop, .backtotop a, .backtotop:visited, .backtotop a:visited {
     display: block;
-    font-weight: bold;
-    font-size: 0.5em;
-    text-align: right;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 1px white solid;
+    outline: none;
+    background-color: #605;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px 0px 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
 }
 
-.btt.en::before {
-    content: 'Back to TOP ';
+.backtotop:hover {
+    background-color: darkgray;
+    cursor: pointer;
+    text-decoration: none;
+    color: #605;
 }
 
-.btt.ms::before {
-    content: 'Naik ke ATAS ';
+button, button:visited {
+    border: 1px white solid;
+    outline: none;
+    background-color: #504;
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px 0px 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: "Baloo Tammudu 2", "Harmattan", "MNH48 Beringin PUA", "Kosugi Maru", "ZCOOL XiaoWei", "Noto Sans TC", sans-serif;
+    line-height: 1em;
 }
 
-.btt.ms-Arab::after {
-    content: ' ناٴيق کأتس';
-}
-
-.btt.ms-Brgn::before {
-    content: '   ';
+button:hover {
+    background-color: darkgray;
+    cursor: pointer;
+    text-decoration: none;
+    color: #504;
 }
