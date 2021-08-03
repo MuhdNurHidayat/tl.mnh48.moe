@@ -1,9 +1,9 @@
-<!--start of _includes/header.html-->
-{% capture pagelang %}{{ page.lang | default: "en"}}{% endcapture %}<!--Jekyll check the page language to use on header-->
-{% assign hrdt = site.data.html.header[pagelang] %}<!--Jekyll assign all variables based on page language-->
+<!--[if lt IE 3]> start of _includes/header.html <![endif]-->
+{% capture pagelang %}{{ page.lang | default: "en"}}{% endcapture -%}
+{% assign hrdt = site.data.html.header[pagelang] -%}
 <header class="page-header">
-    <img id="toplogo" src="/assets/img/mnh48/mnh48-nobg-250.png" alt="MNH48" class="webmainicon"/>
+    <img id="toplogo" src="https://img.mnh48.moe/mnh48/mnh48-nobg-250.png" alt="MNH48" class="webmainicon"/>
     <h1 class="websitetitle" lang="{{ pagelang }}">{{ hrdt.webtitle }}</h1>
     <h2 class="webpagetitle" lang="{{ pagelang }}">{% if page.title %}{% if page.title == hrdt.webtitle %}{{ hrdt.pagetitle }}{% else %}{{ page.title }}{% endif %}{% else %}{{ hrdt.pagetitle }}{% endif %}</h2>
 </header>
-<!--end of _includes/header.html-->
+<!--[if lt IE 3]> end of _includes/header.html <![endif]-->

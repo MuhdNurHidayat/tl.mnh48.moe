@@ -18,12 +18,14 @@ not for reuse without prior permission, however certain contents are
 released under open source license. Check the exact page carefully to
 know whether the content are available under such license or not.
 
-The assets and data files are licensed in various different ways,
-please check the license files that has been placed in respective
-directories. Assets refer to the files under the `/assets` directory,
-whereas data files refer to the files under the `/_data` directory.
+The data files are licensed in various different ways, please check the
+license files that has been placed in respective directories. Data files
+refer to the files under the `/_data` directory.
 
-The website layout is released under The MIT license, this includes
-the files in the `/_layouts` and `/_includes` directories. The CSS
-files in `/assets/css` are also licensed under The MIT license as
-they are also part of the core of the website layout styling.
+The website layout is released under The MIT license, this includes the
+files in the `/_layouts` and `/_includes` directories. The CSS files used
+has been moved to my server for consistency reason where source is not
+available temporarily, but the source will be re-release again later.
+They are still licensed under The MIT license even when source is moved
+temporarily, people who used the CSS before the move can continue to use it
+while I sort it for new version release.

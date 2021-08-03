@@ -6,7 +6,9 @@ en:
   contact: Contact Me
   status: Status
   disclaim: All the external services logo are copyrights of the respective owners, my use of their logos on my website is only for easier identification of their services, softwares or platforms.
-  generate: Website last generated from <a href="https://github.com/mnh48/tl.mnh48.moe">GitHub repository</a> on
+  generate: Website last generated from
+  gitrepo: GitHub repository
+  wordon: "on"
 ms:
   domain: ms
   homepage: Laman Utama
@@ -15,7 +17,9 @@ ms:
   contact: Hubungi Saya
   status: Status
   disclaim: Semua logo perkhidmatan luaran ialah hak cipta pemilik masing-masing, kegunaan logo mereka di laman web saya hanyalah untuk memudahkan pengecaman perkhidmatan, perisian atau platform mereka.
-  generate: Laman web dijana buat kali terakhir daripada <a href="https://github.com/mnh48/tl.mnh48.moe">repositori GitHub</a> pada
+  generate: Laman web dijana buat kali terakhir daripada 
+  gitrepo: repositori GitHub
+  wordon: pada
 ms-Arab:
   domain: jawi
   homepage: لامن اوتام
@@ -24,7 +28,9 @@ ms-Arab:
   contact: هوبوڠي ساي
   status: ستاتوس
   disclaim: سموا لوݢو ڤرخيدمتن لوار اياله حق چيڤت ڤميليق ماسيڠ٢⹁ کݢوناٴن لوݢو مريک دلامن ويب ساي هاڽاله اونتوق ممودهکن ڤڠچمن ڤرخيدمتن⹁ ڤرايسين اتاو ڤلتفوم مريک.
-  generate: لامن ويب اين دجان بوات کالي تراخير درڤد <a href="https://github.com/mnh48/tl.mnh48.moe">ريڤوسيتوري GitHub</a> ڤد
+  generate: لامن ويب اين دجان بوات کالي تراخير درڤد
+  gitrepo: ريڤوسيتوري GitHub
+  wordon: ڤد
 ms-Brgn:
   domain: brgn
   homepage:  
@@ -33,7 +39,9 @@ ms-Brgn:
   contact:  
   status: 
   disclaim:                         
-  generate:        <a href="https://github.com/mnh48/tl.mnh48.moe"> GitHub</a> 
+  generate:       
+  gitrepo:  GitHub
+  wordon: 
 ja:
   domain: jpn
   homepage: ホームページ
@@ -42,7 +50,9 @@ ja:
   contact: 連絡する
   status: 状態
   disclaim: 外部のサービスロゴは全て所有者の著作権であり、ここでは所有者のサービス、ソフトウェアやプラットフォームを識別のためにロゴを使っていた。
-  generate: このウェブサイトは<a href="https://github.com/mnh48/tl.mnh48.moe">GitHubのリポジトリーから</a>この年月日に生成された：
+  generate: このウェブサイトは
+  gitrepo: GitHubのリポジトリーから
+  wordon: この年月日に生成された：
 zh-Hans:
   domain: chn
   homepage: 首页
@@ -51,7 +61,9 @@ zh-Hans:
   contact: 联络
   status: 状态
   disclaim: 所有外部服务徽标是各自所有者的版权，在此网站的使用只为了方便大家辨认他们的服务，软件或平台。
-  generate: 此网站是由<a href="https://github.com/mnh48/tl.mnh48.moe">GitHub仓库</a>在此日期生成的：
+  generate: 此网站是由
+  gitrepo: GitHub仓库
+  wordon: 在此日期生成的：
 zh-Hant:
   domain: twn
   homepage: 首頁
@@ -60,7 +72,9 @@ zh-Hant:
   contact: 聯絡
   status: 狀態
   disclaim: 所有外部服務徽標是各自所有者的版權，在此網站的使用只為了方便大家辨認他們的服務，軟件或平台。
-  generate: 此網站是由<a href="https://github.com/mnh48/tl.mnh48.moe">GitHub倉庫</a>在此日期生成的：
+  generate: 此網站是由
+  gitrepo: GitHub倉庫
+  wordon: 在此日期生成的：
 mul:
   domain: www
   homepage: Homepage
@@ -69,4 +83,6 @@ mul:
   contact: Contact Me
   status: Status
   disclaim: All the external services logo are copyrights of the respective owners, my use of their logos on my website is only for easier identification of their services, softwares or platforms.
-  generate: Website last generated from <a href="https://github.com/mnh48/tl.mnh48.moe">GitHub repository</a> on
+  generate: Website last generated from
+  gitrepo: GitHub repository
+  wordon: "on"

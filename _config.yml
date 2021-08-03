@@ -1,12 +1,12 @@
 title: MNH48 Translation - Terjemahan MNH48
 description: "&#x202e;ترجمهن &#x202c;MNH48&#x202e; -  &#x202c;"
-twitter_username: mnh48com
+twitter_username: yayamnh48
 github_username: mnh48
 timezone: Asia/Kuala_Lumpur
 
 mnh48:
-    picture: https://s.gravatar.com/avatar/8b9ca30c0d90e45386fa97a1ebc8d344?s=200
-    twitter: mnh48com
+    picture: https://gravatar.com/avatar/75137565e1f032813be0b53122547ba7?s=200
+    twitter: yayamnh48
 
 plugins:
     - jekyll-redirect-from
