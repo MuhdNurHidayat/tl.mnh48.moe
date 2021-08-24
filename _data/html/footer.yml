@@ -16,8 +16,8 @@ ms:
   support: Bantu Saya
   contact: Hubungi Saya
   status: Status
-  disclaim: Semua logo perkhidmatan luaran ialah hak cipta pemilik masing-masing, kegunaan logo mereka di laman web saya hanyalah untuk memudahkan pengecaman perkhidmatan, perisian atau platform mereka.
-  generate: Laman web dijana buat kali terakhir daripada 
+  disclaim: Semua logo perkhidmatan luaran ialah hak cipta pemilik masing-masing, kegunaan logo mereka di laman sesawang saya hanyalah untuk memudahkan pengecaman perkhidmatan, perisian atau platform mereka.
+  generate: Laman sesawang dijana buat kali terakhir daripada 
   gitrepo: repositori GitHub
   wordon: pada
 ms-Arab:
@@ -27,10 +27,21 @@ ms-Arab:
   support: بنتو ساي
   contact: هوبوڠي ساي
   status: ستاتوس
-  disclaim: سموا لوݢو ڤرخيدمتن لوار اياله حق چيڤت ڤميليق ماسيڠ٢⹁ کݢوناٴن لوݢو مريک دلامن ويب ساي هاڽاله اونتوق ممودهکن ڤڠچمن ڤرخيدمتن⹁ ڤرايسين اتاو ڤلتفوم مريک.
-  generate: لامن ويب اين دجان بوات کالي تراخير درڤد
+  disclaim: سموا لوݢو ڤرخيدمتن لوار اياله حق چيڤت ڤميليق ماسيڠ٢⹁ کݢوناٴن لوݢو مريک دلامن سساوڠ ساي هاڽاله اونتوق ممودهکن ڤڠچمن ڤرخيدمتن⹁ ڤرايسين اتاو ڤلتفوم مريک.
+  generate: لامن سساوڠ اين دجان بوات کالي تراخير درڤد
   gitrepo: ريڤوسيتوري GitHub
   wordon: ڤد
+ms-Rjng:
+  domain: rjng
+  homepage: ꤾꤸꥐ ꥆꥈꤳꤸ
+  blog: ꤷ꥓ꤾꥋꤱ꥓
+  support: ꤷꥐꤳꥈ ꤼꤿ
+  contact: ꥁꥈꤷꥈꤲꥇ ꤼꤿ
+  status: ꤼ꥓ꤳꤳꥈꤼ꥓
+  disclaim: ꤼꥍꤸꥈꥆ ꤾꥋꤱꥋ ꤶꥍꥑꤰ꥓ꥁꥇꤴ꥓ꤸꤳꥐ ꤾꥈꥆꤽꥐ ꥆꥇꥆꤾꥒ ꥁꤰ꥓ ꤹꥇꤶ꥓ꤳ ꤶꥍꤸꥇꤾꥇꤰ꥓ ꤸꤼꥇꥏ-ꤸꤼꥇꥏ, ꤰꥍꤱꥈꤵꥆꥐ ꤾꥋꤱꥋ ꤸꥍꤽꥉꤰ ꤴꥇ ꤾꤸꥐ ꤼꥍꤼꥀꥏ ꤼꤿ ꥁꤻꤾꥒ ꥆꥈꥐꤳꥈꤰ꥓ ꤸꥍꤸꥈꤴꥒꤰꥐ ꤶꥍꤲꥍꤹꤸꥐ ꤶꥍꥑꤰ꥓ꥁꥇꤴ꥓ꤸꤳꥐ, ꤶꥍꤽꥇꤼꥇꥆꥐ ꥆꤳꥌ ꤶ꥓ꤾꤳ꥓ꤶꥋꥑꤸ꥓ ꤸꥍꤽꥉꤰ.
+  generate: ꤾꤸꥐ ꤼꥍꤼꥀꥏ ꤴꥇꤺꤵ ꤷꥈꥆꤳ꥓ ꤰꤾꥇ ꤳꥍꥑꥆꤰ꥓ꥁꥇꥑ ꤴꤽꥇꤶꤴ
+  gitrepo: ꤽꥉꤶꥋꤼꥇꤳꥋꤽꥇ GitHub
+  wordon: ꤶꤴ
 ms-Brgn:
   domain: brgn
   homepage:  

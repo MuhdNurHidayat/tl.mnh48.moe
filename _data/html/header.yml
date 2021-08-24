@@ -13,6 +13,11 @@ ms-Arab:
   webtitle: ترجمهن MNH48
   pagetitle: منترجمه کبهاس ملايو سجق تاهون 2012⹁ دان مڽومبڠ کڤد سومبر تربوک.
   backtext: → کمبالي
+ms-Rjng:
+  domain: rjng
+  webtitle: ꤳꥍꥑꤺꥍꤸꥁꥐ MNH48
+  pagetitle: ꤸꥍꥐꤳꥍꥑꤺꥍꤸꥁ꥓ ꤰꥍ ꤷꥁꤼ ꤸꥍꤾꤿꥈ ꤼꥍꤺꤰ꥓ ꤳꥁꥈꥐ 2012, ꤴꥐ ꤸꥍꤻꥈꤸ꥓ꤷꥏ ꤰꥍꤶꤴ ꤼꥈꤸ꥓ꤷꥍꥑ ꤳꥍꥑꤷꥈꤰ.
+  backtext: ← ꤰꥍꤸ꥓ꤷꤾꥇ
 ms-Brgn:
   domain: brgn
   webtitle:  
@@ -36,5 +41,5 @@ zh-Hant:
 mul:
   domain: www
   webtitle: MNH48 Translation - Terjemahan MNH48
-  pagetitle: <span dir="rtl" lang="ms-Arab">ترجمهن MNH48</span> - <span style="writing-mode:unset; display:inline-block; margin-left:0em; direction:rtl; -moz-transform:scale(-1, -1); -webkit-transform:scale(-1, -1); -o-transform:scale(-1, -1); -ms-transform:scale(-1, -1); transform:scale(-1, -1);" lang="ms-Brgn"> </span>
+  pagetitle: <span dir="rtl" lang="ms-Arab">ترجمهن MNH48</span> - <span lang="ms-Rjng">ꤳꥍꥑꤺꥍꤸꥁꥐ MNH48</span> - <span style="writing-mode:unset; display:inline-block; margin-left:0em; direction:rtl; -moz-transform:scale(-1, -1); -webkit-transform:scale(-1, -1); -o-transform:scale(-1, -1); -ms-transform:scale(-1, -1); transform:scale(-1, -1);" lang="ms-Brgn"> </span>
   backtext: ←
