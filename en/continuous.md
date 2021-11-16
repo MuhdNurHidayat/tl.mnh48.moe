@@ -7,6 +7,7 @@ needbtt: true
 ---
 
 - [bluesabre](#bluesabre)
+  - [Darkbar](#darkbar)
   - [MenuLibre](#menulibre)
   - [Mugshot](#mugshot)
   - [SGT Puzzles Collection](#sgt-puzzles-collection)
@@ -46,6 +47,20 @@ The website bluesabre.org is where you'll find the latest Xfce and Xubuntu devel
 Softwares released by bluesabre uses Transifex for translation management.
 
 [Website](https://bluesabre.org?utm_source=tl.mnh48.moe&utm_medium=referral) + [Project Listing](https://bluesabre.org/projects/?utm_source=tl.mnh48.moe&utm_medium=referral) + [Translation Base (Transifex)](https://www.transifex.com/bluesabreorg/?utm_source=tl.mnh48.moe&utm_medium=referral)
+
+
+### Darkbar
+
+![Darkbar <](https://img.mnh48.moe/tl/bluesabre/darkbar-64.png "Darkbar")
+
+Darkbar is a utility that replaces windows decoration with your preference of a dark or light theme variant. My work of Rumi Malay and Jawi Malay translation for Darkbar has started on 16&nbsp;November&nbsp;2021 and both of them had been completed in the same day. They have since been kept up to date on Transifex side.
+
+[Repository (GitHub)](https://github.com/bluesabre/darkbar?utm_source=tl.mnh48.moe&utm_medium=referral) + [Translation (Transifex)](https://www.transifex.com/bluesabreorg/darkbar/?utm_source=tl.mnh48.moe&utm_medium=referral)
+
+Current status:
+
+- Rumi Malay: ![Rumi Malay translation status of Darkbar](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.mnh48.moe%2Fstatus%2Ftransifex%3Fname%3Drumi-Darkbar)
+- Jawi Malay: ![Jawi Malay translation status of Darkbar](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.mnh48.moe%2Fstatus%2Ftransifex%3Fname%3Djawi-Darkbar)
 
 
 ### MenuLibre
