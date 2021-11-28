@@ -302,7 +302,7 @@ Translation of Project Sekai Game Data.
 
 Current status:
 
-- Rumi Malay: ![Rumi Malay translation status of Project Sekai Game Data](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.mnh48.moe%2Fstatus%2Ftransifex%3Fname%3Drumi-SekaiViewer)
+- Rumi Malay: ![Rumi Malay translation status of Project Sekai Game Data](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.mnh48.moe%2Fstatus%2Ftransifex%3Fname%3Drumi-ProjectSekaiI18n)
 - Jawi Malay is not decided yet.
 
 &nbsp;
