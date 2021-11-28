@@ -3,7 +3,7 @@ description: "&#x202e;ترجمهن &#x202c;MNH48&#x202e; - 
 twitter_username: yayamnh48
 github_username: mnh48
 timezone: Asia/Kuala_Lumpur
-theme: mnh48moe-theme
+remote_theme: mnh48/mnh48moe-theme
 
 mnh48:
     picture: https://gravatar.com/avatar/75137565e1f032813be0b53122547ba7?s=200
@@ -13,6 +13,7 @@ plugins:
     - jekyll-redirect-from
     - jemoji
     - jekyll-mentions
+    - jekyll-remote-theme
 
 markdown: kramdown
 kramdown:
