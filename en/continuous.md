@@ -251,7 +251,7 @@ uMap uses Transifex for translation management. The works for Rumi Malay transla
 Current status:
 
 - Rumi Malay: ![Rumi Malay translation status of uMap](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.mnh48.moe%2Fstatus%2Ftransifex%3Fname%3Drumi-uMap)
-- Jawi Malay: ![Rumi Malay translation status of uMap](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.mnh48.moe%2Fstatus%2Ftransifex%3Fname%3Djawi-uMap)
+- Jawi Malay: ![Jawi Malay translation status of uMap](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.mnh48.moe%2Fstatus%2Ftransifex%3Fname%3Djawi-uMap)
 
 &nbsp;
 
