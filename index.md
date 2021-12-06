@@ -7,10 +7,10 @@ lang: mul
 [Click or tap here to read in<br>**ENGLISH**](en)
 {: .latn}
 
+{% comment %}
 [Klik atau sentuh sini untuk baca dalam<br>**BAHASA MELAYU (RUMI)**](ms)
 {: .latn}
 
-{% comment %}
 [کليک اتاو سنتوه سين اونتوق باچ دالم<br>**بهاس ملايو (جاوي)**](ms-Arab)
 {: .arab}
 

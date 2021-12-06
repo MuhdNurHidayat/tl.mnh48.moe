@@ -4,7 +4,6 @@ description: General information of MNH48 translations.
 lang: en
 layout: article
 needbtt: true
-redirect_from: "/"
 ---
 
 - [General Profile](#general-profile)
